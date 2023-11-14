@@ -11,7 +11,11 @@ const Promo = () => {
               <span className="highlight">
                 <span>LET’S</span>
               </span>
-              EXPLORE UNIQUE CLOTHES.
+              EXPLORE
+              <span className="highlight highlight--yellow">
+                <span>UNIQUE</span>
+              </span>
+              CLOTHES.
             </div>
             <div className="promo__disc">
               Live for Influential and Innovative fashion!

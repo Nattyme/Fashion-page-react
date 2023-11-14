@@ -49,6 +49,11 @@
 
 }
 
+.highlight--yellow::before {
+    right: -100px;
+    background-color: var(--yellow);
+}
+
 .promo__disc {
     margin-bottom: 32px;
 

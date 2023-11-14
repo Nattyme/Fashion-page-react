@@ -15,15 +15,38 @@
 }
 
 .promo__text {
-    
 }
 
 .promo__title {
+    max-width: 480px;
     margin-bottom: 40px;
 
     font-size: 96px;
     font-weight: 900;
     line-height: 1.25;
+}
+
+.highlight {
+    position: relative;
+    display: inline-block;
+}
+
+.highlight span {
+    position: relative;
+}
+
+.highlight::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 15px;
+    left: -35px;
+    right: -170px;
+    background-color: #FFF;
+
+    transform: rotate(-2deg);
+
 }
 
 .promo__disc {

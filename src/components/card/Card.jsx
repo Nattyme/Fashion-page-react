@@ -7,6 +7,7 @@ import cat01Img from "./../../img/categories/cat-01.jpg";
 const Card = () => {
   return (
     <div className={styles.card}>
+        <a href="#!" className={styles.card__link}></a>
       <img className={styles.card__img} src={cat01Img} alt="" />
       <div className={styles.card__body}>
         <div className={styles.card__text}>

@@ -1,0 +1,15 @@
+.promo {
+    margin-bottom: 63px;
+}
+
+.promo__content {
+    display: flex;
+    column-gap: 24px;
+    align-items: center;
+    
+    padding-top: 68px;
+    padding-left: 120px;
+    
+    border-radius: 59px;
+    background: #F4F6F5;
+}

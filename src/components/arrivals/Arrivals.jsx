@@ -5,7 +5,7 @@ const Arrivals = () => {
     <section className="arrivals">
       <div className="container">
         <div className="arrivals__header">
-          <h2 className="title-2">New arrivals</h2>
+          <h2 className="title-2">NEW ARRIVALS</h2>
         </div>
         <div className="arrivals__cards">
             <div>Card1</div>

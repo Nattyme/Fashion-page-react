@@ -28,14 +28,14 @@ const Footer = () => {
                         <li><a href="#!">Careers</a></li>
                        </ul>
                        <ul className="nav__link">
-                       <li className="nav__title">Quick Link<a href="#!"></a></li>
+                       <li className="nav__title"><a href="#!">Quick Link</a></li>
                         <li><a href="#!">Share Location</a></li>
                         <li><a href="#!">Orders Tracking</a></li>
                         <li><a href="#!">Size Guide</a></li>
                         <li><a href="#!">FAQs</a></li>
                        </ul>
                        <ul className="nav__legal">
-                       <li className="nav__title">Legal<a href="#!"></a></li>
+                       <li className="nav__title"><a href="#!">Legal</a></li>
                         <li><a href="#!">Terms & conditions</a></li>
                         <li><a href="#!">Privacy Policy</a></li>
                        </ul>

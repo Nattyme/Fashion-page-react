@@ -1,4 +1,50 @@
-.footer__row {
-    padding: 125px 0 149px;
+.footer {
     background-color: #000;
 }
+
+.footer__row {
+    padding: 119px 0 149px;
+    color: #fff;
+
+}
+
+.footer__row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 10px;
+}
+
+.footer__subscribe {
+    display: flex;
+    flex-direction: column;
+    row-gap: 32px;
+
+    max-width: 415px;
+}
+
+.footer__logo {
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 1.5;
+    letter-spacing: 1.2px;
+}
+
+.footer__text {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 2;
+    letter-spacing: 0.4px;
+    color: #8E8E8E;
+}
+
+.footer__socials {
+    display: flex;
+    column-gap: 17px;
+}
+
+.footer__nav {
+    display: flex;
+    column-gap: 20px;
+}
+

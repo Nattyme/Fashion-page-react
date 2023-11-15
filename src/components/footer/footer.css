@@ -4,8 +4,7 @@
 
 .footer__row {
     padding: 119px 0 149px;
-    color: #fff;
-
+    color: #8E8E8E;
 }
 
 .footer__row {
@@ -28,6 +27,7 @@
     font-weight: 900;
     line-height: 1.5;
     letter-spacing: 1.2px;
+    color: #fff;
 }
 
 .footer__text {
@@ -35,7 +35,6 @@
     font-weight: 400;
     line-height: 2;
     letter-spacing: 0.4px;
-    color: #8E8E8E;
 }
 
 .footer__socials {
@@ -43,8 +42,37 @@
     column-gap: 17px;
 }
 
+.footer__socials a {
+    transition: brightness 0.2s ease-in;
+}
+
+.footer__socials a:hover {
+    filter: brightness(120%);
+}
+
 .footer__nav {
     display: flex;
     column-gap: 20px;
+    min-height: 273px;
 }
+
+.nav__list {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.footer__nav a {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 2;
+    letter-spacing: 0.4px;
+    color: #8E8E8E;
+}
+
+.footer__nav .nav__title a {
+    color: #D9D9D9;
+}
+
+
 

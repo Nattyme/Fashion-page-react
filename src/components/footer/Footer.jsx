@@ -13,28 +13,28 @@ const Footer = () => {
                         <div className="footer__logo">FASHION</div>
                         <div className="footer__text">Complete your style with awesome clothes from us.</div>
                         <div className="footer__socials">
-                            <img src={fbImg} alt="facebook" />
-                            <img src={instImg} alt="instagram" />
-                            <img src={twImg} alt="twitter" />
-                            <img src={inImg} alt="LinkedIn" />
+                            <a href="#!"><img src={fbImg} alt="facebook" /></a>
+                            <a href="#!"><img src={instImg} alt="instagram" /></a>
+                            <a href="#!"><img src={twImg} alt="twitter" /></a>
+                            <a href="#!"><img src={inImg} alt="linkedIn" /></a>
                         </div>
                     </div>
                     <div className="footer__nav">
-                       <ul className="nav__company">
+                       <ul className="nav__list">
                         <li className="nav__title"><a href="#!">Company</a></li>
                         <li><a href="#!">About</a></li>
                         <li><a href="#!">Contact us</a></li>
                         <li><a href="#!">Support</a></li>
                         <li><a href="#!">Careers</a></li>
                        </ul>
-                       <ul className="nav__link">
+                       <ul className="nav__list">
                        <li className="nav__title"><a href="#!">Quick Link</a></li>
                         <li><a href="#!">Share Location</a></li>
                         <li><a href="#!">Orders Tracking</a></li>
                         <li><a href="#!">Size Guide</a></li>
                         <li><a href="#!">FAQs</a></li>
                        </ul>
-                       <ul className="nav__legal">
+                       <ul className="nav__list">
                        <li className="nav__title"><a href="#!">Legal</a></li>
                         <li><a href="#!">Terms & conditions</a></li>
                         <li><a href="#!">Privacy Policy</a></li>

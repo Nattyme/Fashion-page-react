@@ -1,11 +1,12 @@
 .cta {
-   
+    padding: 141px 156px;
+    background-color: #E5C643;
 }
 
 .cta__content {
-    padding: 141px 350px 156px;
+    max-width: 1010px;
+    margin: 0 auto;
     text-align: center;
-    background-color: #E5C643;
 }
 
 .cta__title {
@@ -77,7 +78,7 @@
 }
 
 .form__btn:hover {
-    animation: opacity 0.4s ease-in-out;
+    animation: opacity 0.2s ease-in-out;
 }
 
 @keyframes opacity {

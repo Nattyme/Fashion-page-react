@@ -6,6 +6,7 @@ import Payday from "./components/payday/Payday.jsx";
 import Favourite from "./components/favourite/Favourite.jsx";
 import DownloadApp from "./components/downloadApp/DownloadApp.jsx";
 import Cta from "./components/cta/Cta.jsx";
+import Footer from "./components/footer/Footer.jsx";
 
 
 function App() {
@@ -18,7 +19,8 @@ function App() {
       {/* <Payday /> */}
       {/* <Favourite /> */}
       {/* <DownloadApp /> */}
-      <Cta />
+      {/* <Cta /> */}
+      <Footer />
     </div>
   );
 }

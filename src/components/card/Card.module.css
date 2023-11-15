@@ -17,7 +17,7 @@
 
 .card__img {
     margin-bottom: 28px;
-    border-right: 20px;
+    border-radius: 20px;
 }
 
 @keyframes opacity {

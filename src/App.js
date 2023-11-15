@@ -3,6 +3,7 @@ import Promo from "./components/promo/Promo.jsx";
 import Brands from "./components/brands/Brands.jsx";
 import Arrivals from "./components/arrivals/Arrivals.jsx";
 import Payday from "./components/payday/Payday.jsx";
+import Favourite from "./components/favourite/Favourite.jsx";
 
 
 function App() {
@@ -12,7 +13,8 @@ function App() {
       {/* <Promo />
       <Brands />
       <Arrivals /> */}
-      <Payday />
+      {/* <Payday /> */}
+      <Favourite />
     </div>
   );
 }

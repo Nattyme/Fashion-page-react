@@ -5,6 +5,7 @@ import Arrivals from "./components/arrivals/Arrivals.jsx";
 import Payday from "./components/payday/Payday.jsx";
 import Favourite from "./components/favourite/Favourite.jsx";
 import DownloadApp from "./components/downloadApp/DownloadApp.jsx";
+import Cta from "./components/cta/Cta.jsx";
 
 
 function App() {
@@ -16,7 +17,8 @@ function App() {
       <Arrivals /> */}
       {/* <Payday /> */}
       {/* <Favourite /> */}
-      <DownloadApp />
+      {/* <DownloadApp /> */}
+      <Cta />
     </div>
   );
 }

@@ -10,7 +10,6 @@
 .footer__row {
     display: flex;
     justify-content: space-between;
-    align-items: center;
     column-gap: 10px;
 }
 
@@ -51,14 +50,17 @@
 }
 
 .footer__nav {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
     column-gap: 20px;
-    min-height: 273px;
+    min-width: 850px; 
 }
 
 .nav__list {
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(5, 1fr);
+    min-height: 273px;
     justify-content: space-between;
 }
 

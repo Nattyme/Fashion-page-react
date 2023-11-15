@@ -1,0 +1,54 @@
+.downloadApp {
+    padding: 68px 0 170px;
+}
+
+.downloadApp__content {
+    padding: 0 148px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.downloadApp__text {
+    max-width: 510px;
+}
+
+.downloadApp__title {
+    margin-bottom: 41px;
+
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 1.5;
+    letter-spacing: 2.88px;
+}
+
+
+.downloadApp__disc {
+    margin-bottom: 65px;
+
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 1.45;
+    letter-spacing: -0.96px;
+    color: #7C7C7C;
+}
+
+.downloadApp__btn-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.downloadApp__btn + * {
+    margin-left: 19px;
+}
+
+.downloadApp__btn {
+    transition: opacity 0.1s ease-in;
+}
+
+.downloadApp__btn:hover {
+    opacity: 0.8;
+}
+

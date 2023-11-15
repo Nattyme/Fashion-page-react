@@ -16,17 +16,17 @@ const DownloadApp = () => {
               Get 30% off for first transaction using Rondovision mobile app for
               now.
             </div>
+            <div className="downloadApp__btn-wrapper">
+              <a className="downloadApp__btn" href="#!">
+                <img src={appStoreImg} alt="AppStore" />
+              </a>
+              <a className="downloadApp__btn" href="#!">
+                <img src={googlePlayImg} alt="GooglePlay" />
+              </a>
+            </div>
           </div>
           <div className="downloadApp__img">
             <img src={appImg} alt="download" />
-          </div>
-          <div className="downloadApp__btn-wrapper">
-            <a href="#!">
-              <img src={appStoreImg} alt="AppStore" />
-            </a>
-            <a href="#!">
-              <img src={googlePlayImg} alt="GooglePlay" />
-            </a>
           </div>
         </div>
       </div>

@@ -75,3 +75,22 @@
 
     border-radius: 8px;
 }
+
+.form__btn:hover {
+    animation: opacity 0.4s ease-in-out;
+}
+
+@keyframes opacity {
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0.8;
+    }
+
+    100% {
+        opacity: 1;
+    }
+
+}
